@@ -3,6 +3,7 @@ const path = require("path");
 const fs = require("fs");
 
 const app = express();
+// DYNAMIC PORT 
 const PORT = process.env.PORT || 8080;
 
 // MIDDLEWARE
